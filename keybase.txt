@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/brycelane
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://bryceanderson.net
+  * I am brycelane (https://keybase.io/brycelane) on keybase.
+  * I have a public key with fingerprint D795 F052 A43C 58AE 3A27  651E 0764 616F 7E54 47BC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d795f052a43c58ae3a27651e0764616f7e5447bc",
+            "host": "keybase.io",
+            "key_id": "0764616f7e5447bc",
+            "kid": "01016557e7e2786aa984ff38c04104b12a4be3b7c277a777fd997bf103b56618d3d40a",
+            "uid": "390afa74d07933b0b7d11713d6f08419",
+            "username": "brycelane"
+        },
+        "service": {
+            "hostname": "bryceanderson.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427117509,
+    "expire_in": 157680000,
+    "prev": "8cf4d11c39ae420767b8cfdd20b9451d8c22bce5051cab754a57738aae6a74dc",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIbAnicbVJbSBRRGF5NN7IkQ6woS5qIgpbtnJk5c2a21C7SQ7enkihrO2fmjI5u
+M+vuuGYWBEZ0BTPKoodCuiAUW/YYpNVulBJKJZUQ9qCbIF0g8y3pjBX00Hk5nO//
+vu///4+Typ/hy8v6Ln65WT51tzWr7/HmBt+ugqJ0s0Ado0kINQt1bPoyLbuaxaIx
+y3aFkGBgDZkAiUSWdKQSJhERKwgygBVZgYqJGZJlTHUhINQ4cU/BbSiJs6DlcIw/
+wpbB0f/w634XIIAKQphhJmJVIURTZdOUVB3IEMgU8s6USRTrIsYEY2wamoapCYFE
+kaJA1ZAMGRBu1zBtJ2mAmATLBsCaJFFAsQEhhpKhmECVoeYR4yxmk4OMs2msSWcR
+YjPhaEDgcMLSmZeBt8q/FGIbLBZ37KDNXO4QjTmuozsRXq5x3WjIU7tNUY/eyGj4
+j1GYWrbBw+SCBFdbji2EIGfqruU5Q1nEfDQEtIDADkWtGAtbHgNhRQX8eG1Ygluq
+uinzJXRJI0wWeZCYcsgwREA1GUFD1UWR6gwBBHVCMZIJwlhSCWGKF4QXdZzV244Q
+UvmYpJpbxq1qm7gNMb73k56qHF9Wns+fm+19B1/erIK/n+SDM3MKpnOSjwKrtyWv
+1SYmjrmpgcp54UVFtXdOfBwf8j9oP7eio/S8v8940/7ZGbtYvKFzpP2y/bK3Yv2r
+4J7tKwfuDQfX702myX1795UtF8q+lVS3vgjnv3t6Yv6BTGfLxuP65KrRZ2PX397H
+6br28uaXpQtWLi1x15xaUtixY7zqcCXaeOnGrfcgubqL9ty+mul72ziYOrMuv1Uv
+LkxEZmTcTTgLfRrs/rq1K/18Z2/3zof9pPfs1dOjkchQ7tyAs7jn9NrxVwVi2/6W
+/WLlEf9E0ZVd0bMV/dlbNrdtG+z8capsdt7ryeXFya6y1PC+OQuXgZP1jf5wYSaY
++jCy4mfVnuLRX1q1KVs=
+=Hiq1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brycelane
+
+==================================================================
+
