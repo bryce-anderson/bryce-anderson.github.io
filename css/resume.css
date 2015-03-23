@@ -1,0 +1,96 @@
+html {
+  font-size: 0.95em;
+}
+
+#container {
+  margin-top: 50px;
+}
+
+div #header {
+  text-align: center;
+}
+
+div #name {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+img.logo {
+  max-width: 25px;
+  vertical-align: middle;
+}
+
+#skills {
+  font-size: 0.95em;
+}
+
+#experience .details {
+  font-size: 0.8em;
+  font-weight: normal;
+}
+
+#education h4 {
+  margin-bottom: 5px;
+}
+
+#education ul {
+  margin-top: 0;
+}
+
+#education .elem {
+  margin-bottom: 10px; 
+}
+
+#education .institution {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.subheading1 {
+  text-align: center;
+  font-size: 1.35em;
+  font-weight: bold;
+
+  margin-top: 25px;
+}
+
+.subheading2 {
+  font-size: 1.15em;
+  font-weight: bold;
+  font-style: italic;
+
+  margin-left: -8px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+#container {
+  margin-bottom: 100px;
+}
+
+div #experience .position {
+  margin-top: 0px;
+  float: none;
+  width: 100%;
+}
+
+#experience div.position span.heading {
+}
+#experience div.position span.title {
+  font-weight: bold;
+}
+#experience div.position span.location {
+  font-style: italic;
+}
+
+#experience div.position span.date {
+  float: right;
+  text-align: right;
+}
+
+.position ul {
+   margin-top: 0;
+}
+
