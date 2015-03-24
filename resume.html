@@ -13,72 +13,61 @@
     <div id="container">
       <div id="header">
         <div id="name">Bryce L. Anderson</div>
-          <img class="logo" src="images/In-2C-101px-R.png" alt="LinkedIn"> <a href="http://www.linkedin.com/pub/bryce-anderson">bryce-anderson</a> |
-          <img class="logo" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"> <a href="https://github.com/bryce-anderson">bryce-anderson</a>
+          <img class="logo" src="images/In-2C-101px-R.png" alt="LinkedIn"> <a href="http://www.linkedin.com/pub/bryce-anderson">LinkedIn</a> |
+          <img class="logo" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"> <a href="https://github.com/bryce-anderson">GitHub</a>
       </div>  <!-- id="header" -->
-      <hr>
-
-      <div id="skills">
-        <div class="subheading2">My Software Engineering Buzzwords</div>
-        Scala, Java, Python, C/C++, Haskell, Matlab, Javascript, SQL, NoSQL, Git, Linux, Windows.
-
-        <div class="subheading2">My Scientific Buzzwords</div>
-        Data Analysis/Modeling, Instrument Automation, Energy Conversion, Magnetic Resonance (NMR, EPR), 
-        Ultrafast Time Resolved Spectroscopy, Chemical Synthesis, Inert Atmosphere Techniques, Electrochemistry.
-      </div> <!-- id="skills" -->
-      <hr>
 
       <div id="education">
         <div class="subheading1">Education</div>
         <div class="elem">
           <div class="institution">Harvard University</div>
-          Ph.D candidate, Chemistry. 2013-Present<br>
-          Masters of Arts, Chemistry. 2014<br>
+          Ph.D candidate, Chemistry. <span class="date">2013-Present</span><br>
+          Masters of Arts, Chemistry. <span class="date">2014</span><br>
         </div>
 
         <div class="elem">
           <div class="institution">Massachusetts Institute of Technology</div>
-          Graduate Studies in Chemistry. 2010-2013<br>
+          Graduate Studies in Chemistry. <span class="date">2010-2013</span><br>
         </div>
 
         <div class="elem">
           <div class="institution">University of Utah</div>
-          Bachelors of Science, Chemistry. 2006-2010
+          Bachelors of Science, Chemistry. <span class="date">2006-2010</span>
           <ul>
             <li><em>magna cum laude</em></li>
             <li>ACS Undergraduate Award in Inorganic Chemistry</li>
           </ul>
         </div>
       </div> <!-- id="education" -->
-      <hr>
 
       <div id="experience">
         <div class="subheading1">Professional Experience</div>
 
-        <div class="subheading2">Software Engineering Highlights <span class="details">(See GitHub account for details)</span></div>
+        <div class="subheading2">Software Engineering Highlights <span class="details">(See GitHub account for more details)</span></div>
         <div class="position">
           <div class="heading">
-            <span class="title">http4s:</span>
+            <span class="title"><a href="https://github.com/http4s/http4s">http4s</a>:</span>
             <span class="location">A minimal idiomatic Scala interface for HTTP</span>
             <span class="date">2013-Present</span>
           </div>
           <ul>
-            <li>HTTP is represented by a richly typed core model inspired by Spray.</li>
-            <li>Server model is abstracted to java servlet and a native blaze (vide infra) backend for deployment flexibility.</li>
-            <li>Multiple server DSL's including rho: a composable, self-documenting DSL.</li>
+            <li>Coarchitect of the richly typed core HTTP model inspired by Spray.</li>
+            <li>Implemented the native server backend build upon blaze (vide infra) to provide a lightweight alternative to the java servlet backend.</li>
+            <li>Developed the client model and implementation also built upon blaze.</li>
+            <li>Spearheading the exploration of a composable, self-documenting DSL codenamed <a href="https://github.com/http4s/rho">rho</a> intended to test the limits of the http4s server model.</li>
           </ul>
         </div> <!-- class="position" -->
 
         <div class="position">
           <div class="heading">
-            <span class="title">blaze:</span>
+            <span class="title"><a href="https://github.com/http4s/blaze">blaze</a>:</span>
             <span class="location">Asynchronous NIO framework for Scala</span>
             <span class="date">2013-Present</span>
           </div>
           <ul>
-            <li>Designed and implemented core pipeline composition to ensure type safety and performance.</li>
-            <li>Core networking support includes NIO connectors, SSL pipeline transformers, and common utilities such as timeout management.</li>
-            <li>Contains a right HTTP codec library including highly tuned HTTP/1.1 and HTTP/2.0 codecs.</li>
+            <li>Designed and implemented core pipeline composition inspired by netty to ensure both type safety and performance.</li>
+            <li>Architected the core networking support includes NIO connectors, SSL pipeline transformers, and common utilities such as timeout management.</li>
+            <li>Implemented the highly tuned HTTP codecs for both HTTP/1.1 and HTTP/2.0.</li>
           </ul>
         </div> <!-- class="position" -->
 
@@ -89,13 +78,13 @@
             <span class="date">2010-Present</span>
           </div>
           <ul>
-            <li>Developed and maintained instrument automation software using open source tools including Python and Qt enabling new experiments</li>
+            <li>Developed and maintained instrument automation software using open source tools including Python and Qt enabling new experiments.</li>
             <li>Wrote simulations of complex magnetic resonance spectra using open source tools including Julia, Python, Numpy, and Scipy resulting in fast and flexible tools for magnetic resonance research.</li>
           </ul>
         </div> <!-- class="position" -->
         <!-- Software highlights -->
 
-        <div class="subheading2">Scientific Research Highlights <span class="details">(See Publications list below for details)</span></div>
+        <div class="subheading2">Scientific Research Highlights <span class="details">(See Publications list below for more details)</span></div>
         <div class="position">
           <div class="heading">
             <span class="title">Research Assistant</span>
@@ -116,8 +105,8 @@
             <span class="date">2008-2010</span>
           </div>
           <ul>
-            <li>Proposed an original research project to study manganese phthalocyanine coordination and redox chemistry.</li>
-            <li>Utilized and maintained laboratory equipment including: a glovebox, solvent stills, and a fume hood.</li>
+            <li>Proposed an original research project to study manganese phthalocyanine coordination and redox chemistry for applications as a green redox catalyst.</li>
+            <li>Utilized and maintained laboratory equipment including a glovebox, solvent stills, and a fume hood.</li>
             <li>Attended a Consortium for Fossil Fuel Science Conference in Pittsburgh, PA.</li>
           </ul>
         </div> <!-- class="position" -->
@@ -136,7 +125,22 @@
             </ul>
           </div> <!-- class="position" -->
       </div> <!-- id="experience" -->
-      <hr>
+
+      <div id="skills">
+        <div class="subheading1">Skills</div>
+        <table>
+          <tr>
+            <td class="title">Technology:</td>
+            <td>Scala, Java, Python, C/C++, Haskell, Matlab, Javascript, SQL, NoSQL, Hadoop, Spark, Git, Linux, Windows.</td>
+          </tr>
+
+          <tr>
+            <td class="title">Science:</td>
+            <td>Data Analysis/Modeling, Instrument Automation, Energy Conversion, Magnetic Resonance (NMR, EPR), 
+                Ultrafast Time Resolved Spectroscopy, Chemical Synthesis, Inert Atmosphere Techniques, Electrochemistry.</td>
+          </tr>
+        </table>
+      </div> <!-- id="skills" -->
 
       <div id="publications">
         <div class="subheading1">Publications</div>
