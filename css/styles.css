@@ -9,12 +9,12 @@ body {
 
 a:link {
   text-decoration: none;
-  color: #26ADE4;
+  color: #008ADE;
 }
 
 a:visited {
   text-decoration: none;
-  color: #26ADE4;
+  color: #008ADE;
 }
 
 #container {
@@ -44,8 +44,9 @@ a:visited {
 }
 
 #subtitle {
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-bottom: 20px;
+  font-style: italic;
 }
 
 #blurb {
