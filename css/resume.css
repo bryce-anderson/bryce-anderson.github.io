@@ -2,17 +2,24 @@ html {
   font-size: 0.95em;
 }
 
+.printview {
+  display: none;
+}
+
 #container {
   margin-top: 50px;
 }
 .title {
   font-weight: bold;
 }
-div #header {
+
+#header {
+  display: table;
+  min-width: 100%;
   text-align: center;
 }
 
-div #name {
+#name {
   margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
@@ -51,8 +58,8 @@ img.logo {
   text-align: center;
   font-size: 1.7em;
   font-weight: bold;
-
   margin-top: 20px;
+  width: 100%;
 }
 
 .subheading2 {
@@ -65,13 +72,8 @@ img.logo {
   margin-bottom: 4px;
 }
 
-#container {
-  margin-bottom: 100px;
-}
-
 div #experience .position {
   margin-top: 0px;
-  float: none;
   width: 100%;
 }
 
@@ -94,3 +96,66 @@ span.date {
 #skills td {
   vertical-align: top;
 }
+
+/* special handling for print views */
+@media print {
+  footer { page-break-after: always; }
+
+  /* Font related stuff */
+  html {
+    font-family: "Times New Roman";
+    font-size: 0.9em;
+  }
+
+  #nameblock {
+    text-align: left;
+    float: left;
+    width: 50%;
+  }
+
+  #name {
+    text-align: left;
+    margin-bottom: 0px;
+  }
+ 
+  #contactinfo {
+    margin-top: 8px;
+    text-align: right;
+    float: right;
+    width: 50%;
+  }
+
+  /* link colors */
+  a:link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  /* Element hiding and showing */
+  .webview {
+    display: none;
+  }
+
+  .printview {
+    display: inline;
+  }
+
+  #container {
+    width: 640px;
+  }
+
+  #publications {
+    width: 640px;
+  }
+
+  #publist {
+    font-size: 0.8em;
+  }
+}
+
+
