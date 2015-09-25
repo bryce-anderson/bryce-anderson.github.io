@@ -81,7 +81,15 @@ div #experience .position {
 }
 #experience div.position span.location {
   font-style: italic;
+  padding: 5px;
 }
+
+#experience div.position span.url {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
 
 span.date {
   font-weight: bold;
