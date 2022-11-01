@@ -14,7 +14,7 @@
       <div id="header">
         <div id="nameblock">
           <div id="name">Bryce L. Anderson</div>
-          <div class="printview">banderson@fas.harvard.edu</div>
+          <div class="printview">brycelanderson@protonmail.com</div>
         </div>
         <div id="contactinfo">
           <div>
@@ -55,7 +55,8 @@
         <div class="subheading1">Professional Experience</div>
 
         <div id="techexperience">
-          <div class="subheading2">Software Engineering Highlights <span class="details">(See GitHub account for more details)</span></div>
+          <div class="subheading2">Software Engineering Highlights <span class="details">(See 
+                  <a href="https://github.com/bryce-anderson">bryce-anderson</a> on GitHub for more details)</span></div>
 	  <div class="position">
             <div class="heading">
 		<span class="title"><a href="https://twitter.com">Twitter Inc.</a></span>
@@ -74,9 +75,13 @@
                 
 	    </div>
 	    <ul>
-		<li>Co-maintainer of Finagle, the RPC framework that powers Twitter.</li>
-        <li>Played a key role in migrating Finagle from Netty 3 to Netty 4.</li>
-		<li>Developed key abstractions necessary for migrating core business logic from an internal HTTP framework to Finatra.</li>
+            <li>Co-maintainer of <a href="https://github.com/twitter/finagle">Finagle</a> and 
+                <a href="https://github.com/twitter/util">Util</a>, the RPC framework that powers Twitter.</li>
+		<li>Co-designed key resiliency and scalability features such as 
+            <a href="https://twitter.github.io/finagle/guide/ApertureLoadBalancers.html">Deterministic Aperture.</a></li>
+        <li>Designer and implementer of many current protocol implementations including 
+            <a href="https://github.com/twitter/finagle/tree/develop/finagle-http2/src/main/scala/com/twitter/finagle/http2">HTTP/2</a> and <a href="https://github.com/twitter/finagle/tree/develop/finagle-mux/src/main/scala/com/twitter/finagle/">Mux.</a></li>
+        <li>Contributor of key runtime features such as platform agnostic <a href="https://github.com/twitter/finagle/tree/develop/finagle-core/src/main/scala/com/twitter/finagle/offload">admission control.</a></li>
 	    </ul>
 	  </div>
           <div class="position">
@@ -84,7 +89,7 @@
               <span class="title"><a href="https://github.com/http4s/http4s">http4s</a></span>
               <span class="location">A minimal idiomatic Scala interface for HTTP</span>
               <span class="printview url">(github.com/http4s/http4s)</span>
-              <span class="date">2013-Present</span>
+              <span class="date">2013-2019</span>
             </div>
             <ul>
               <li>Coarchitect of the richly typed core HTTP model inspired by Spray.</li>
@@ -99,13 +104,13 @@
               <span class="title"><a href="https://github.com/http4s/blaze">blaze</a></span>
               <span class="location">Asynchronous NIO framework for Scala</span>
               <span class="printview url">(github.com/http4s/blaze)</span>
-              <span class="date">2014-Present</span>
+              <span class="date">2014-2019</span>
             </div>
             <ul>
               <li>Implemented the highly tuned HTTP codecs for both HTTP/1.1 and HTTP/2.0.</li>
-              <li>Designed and implemented core pipeline composition architecture inspired by netty featuring type safety and high performance.</li>
+              <li>Designed and implemented core pipeline composition architecture inspired by Netty featuring type safety and high performance.</li>
               <li>Architected the core networking support includes NIO connectors, SSL pipeline transformers, and common utilities such 
-                  as a tickwheel executor and lightweight actors.</li>
+                  as a tick-wheel executor and lightweight actors.</li>
             </ul>
           </div> <!-- class="position" -->
 
@@ -113,7 +118,7 @@
             <div class="heading">
               <span class="title">Research Assistant</span>
               <span class="location">Harvard University, Department of Chemistry.</span>
-              <span class="date">2010-Present</span>
+              <span class="date">2010-2016</span>
             </div>
             <ul>
               <li>Developed and maintained instrument automation software using open source tools including Python and Qt enabling new experiments.</li>
@@ -129,11 +134,11 @@
             <div class="heading">
               <span class="title">Research Assistant</span>
               <span class="location">Harvard University, Department of Chemistry.</span>
-              <span class="date">2010-Present</span>
+              <span class="date">2010-2016</span>
             </div>
             <ul>
               <li>Employed transient absorption (TA) to study the ultrafast dynamics of peroxide oxidation in a non-aqueous environment.</li>
-              <li>Studied the mechanism of halogen photoelimination using TA and photo-crystallography techniques performed at the Argonne national laboratory synchrotron facility.</li>
+              <li>Studied the mechanism of halogen photo-elimination using TA and photo-crystallography techniques performed at the Argonne national laboratory synchrotron facility.</li>
               <li>Developed an expertise in Electron Paramagnetic Resonance (EPR) and time resolved spectroscopy leading to numerous collaborations.</li>
             </ul>
           </div> <!-- class="position" -->
@@ -171,8 +176,8 @@
         <table>
           <tr id="techskills">
             <td class="title">Technology:</td>
-            <td>Scala, Java, Python, C/C++, Haskell, Matlab, HTML, CSS, Javascript, PostgreSQL, Cassandra, MongoDB, 
-                Machine Learning, Hadoop, Spark, Git, Linux, Windows.</td>
+            <td>Scala, Java, Python, C/C++, Haskell, Matlab, HTML, CSS, SQL, 
+                Distributed Systems Design, Machine Learning, Hadoop, Spark, Git, Linux, Windows.</td>
           </tr>
 
           <tr id="scienceskills">
