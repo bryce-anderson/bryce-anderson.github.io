@@ -21,7 +21,7 @@
           <img class="logo" src="images/In-2C-101px-R.png" alt="LinkedIn" height=20px>
             <a href="https://www.linkedin.com/in/brycelanderson" class="webview">LinkedIn</a> 
             <span class="printview">BryceLAnderson</span> |
-          <img class="logo" src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+          <img class="logo" src="https://github.githubassets.com/favicons/favicon.png" alt="GitHub" height=20px>
             <a href="https://github.com/bryce-anderson" class="webview">GitHub</a>
             <span class="printview">bryce-anderson</span>
           </div>
@@ -33,7 +33,8 @@
         <div class="subheading1">Education</div>
         <div class="elem">
           <div class="institution">Harvard University</div>
-          Doctor of Philosophy, Chemistry. <span class="date">Jan 2013 - May 2016</span>
+          Doctor of Philosophy, Chemistry.<br>
+          Doctoral Dissertation:  <a href="https://dash.harvard.edu/handle/1/33493292">Advanced Physical Techniques in Inorganic Chemistry:<br>Probing Small Molecule Activation</a><span class="date">Jan 2013 - May 2016</span>
         </div>
 
         <div class="elem">
@@ -75,16 +76,28 @@
                 
 	    </div>
 	    <ul>
-            <li>Co-maintainer of <a href="https://github.com/twitter/finagle">Finagle</a> and 
-                <a href="https://github.com/twitter/util">Util</a>, the RPC framework that powers Twitter.</li>
-		<li>Co-designed key resiliency and scalability features such as 
-            <a href="https://twitter.github.io/finagle/guide/ApertureLoadBalancers.html">Deterministic Aperture.</a></li>
+            <li>Maintainer of <a href="https://github.com/twitter/finagle">Finagle</a> and 
+                <a href="https://github.com/twitter/util">Util</a>, the batteries included asynchronous RPC framework that powers nearly all services at Twitter.</li>
+		<li>Co-designed key resiliency and scalability features such as the 
+            <a href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/daperture-load-balancer">Deterministic Aperture</a> load balancer.</li>
+        <ul>
+            <li>Represented Twitter at SRECon19 Asia/Pacific in <a href="https://www.usenix.org/conference/srecon19asia/presentation/oanta">co-presenting Determistic-Aperture.</a></li>
+
+        </ul>
         <li>Designer and implementer of many current protocol implementations including 
             <a href="https://github.com/twitter/finagle/tree/develop/finagle-http2/src/main/scala/com/twitter/finagle/http2">HTTP/2</a> and <a href="https://github.com/twitter/finagle/tree/develop/finagle-mux/src/main/scala/com/twitter/finagle/">Mux.</a></li>
         <li>Contributor of key runtime features such as platform agnostic <a href="https://github.com/twitter/finagle/tree/develop/finagle-core/src/main/scala/com/twitter/finagle/offload">admission control.</a></li>
         <li>Co-designed and implemented the control plane for a high-performance Envoy based proxy.</li>
+        <ul>
+            <li>Implemented the Mux protocol in Envoy.</li>
+            <li>Contributed <a href="https://github.com/envoyproxy/envoy/commit/9f2bb17be1fe970">client-side StartTls support to Envoy.</a></li>
+        </ul>
         <li>Contributed features for edge performance experimentations for both Andriod and iOS mobile apps.</li>
         <li>Led multiple projects intended to increase performance of Finagle and Util.</li>
+        <ul>
+            <li>Optimized and re-implemented protocols to increase performance.</li>
+            <li>Util runtime optimizations, particularly in the core concurrency abstractions Promise and Var.</li>
+        </ul>
 	    </ul>
 	  </div>
           <div class="position">
@@ -95,7 +108,7 @@
               <span class="date">2013-2019</span>
             </div>
             <ul>
-              <li>Coarchitect of the richly typed core HTTP model inspired by Spray.</li>
+              <li>Co-architect of the richly typed core HTTP model inspired by Spray.</li>
               <li>Implemented the native server backend build upon blaze (vide infra) to provide a lightweight alternative to the java servlet backend.</li>
               <li>Developed the client model and implementation also built upon blaze.</li>
               <li>Spearheading the exploration of a composable, self-documenting DSL codenamed <a href="https://github.com/http4s/rho">rho</a> intended to test the limits of the http4s server model.</li>
