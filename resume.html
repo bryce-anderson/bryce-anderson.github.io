@@ -81,7 +81,7 @@
 		<li>Co-designed key resiliency and scalability features such as the 
             <a href="https://blog.twitter.com/engineering/en_us/topics/infrastructure/2019/daperture-load-balancer">Deterministic-Aperture</a> load balancer.</li>
         <ul>
-            <li>Granted patent <a href="https://patentimages.storage.googleapis.com/1a/09/5a/14392e76e5d8c5/US11119827.pdf">US11119827</a> for key features of Deterministic-Aperture in 2021.</li>
+            <li>Granted patent <a href="https://patentimages.storage.googleapis.com/1a/09/5a/14392e76e5d8c5/US11119827.pdf">US11119827</a> in 2021. See Patent section for further details.</li>
             <li>Represented Twitter at SRECon19 Asia/Pacific in <a href="https://www.usenix.org/conference/srecon19asia/presentation/oanta">co-presenting Deterministic-Aperture.</a></li>
 
         </ul>
@@ -203,6 +203,20 @@
           </tr>
         </table>
       </div> <!-- id="skills" -->
+
+      <div id="patents">
+        <div class="subheading1">Patents</div>
+        U.S. Patent <a href="https://patentimages.storage.googleapis.com/1a/09/5a/14392e76e5d8c5/US11119827.pdf">US11119827</a>:
+        Load Balancing Deterministically - Subsetted Processing Resources Using Fractional Loads,
+        Granted September 14, 2021.<br>
+        <ul>
+            <li>A method for evenly balancing request traffic between two clusters while minimizing connections.</li>
+            <li>Does not require communication between peers, either directly or via a state management system such as etcd or zookeeper: the only of a shared view of the source and destination server sets.
+            <li>The technique can be used in clusters consisting of instances with inhomogeneous capacities.</li>
+            <li>The design has since been implemented by industry peers and is <a href="https://github.com/envoyproxy/envoy/pull/22991">being added to Envoy.</a></li>
+        </ul>
+
+      </div> <!-- id="patents" -->
       
       <p id="maybepagebreak"></p>
       
